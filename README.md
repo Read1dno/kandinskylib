@@ -60,7 +60,7 @@ Generates an image based on a text prompt.
 - `scale` (str): Aspect ratio of the image in the format 'w
 '. Default is '1:1'.
 - `style` (str): Image style. Default is 'UHD'.
-- `negative_prompt` (str): Negative text prompt to exclude unwanted elements. Default is "Яркие цвета, кислотные цвета".
+- `negative_prompt` (str): Negative text prompt to exclude unwanted elements.
 - `path` (str): Path to save the generated image. Default is './image/generated_image.jpg'.
 - Returns: `str` - Message about the result of the generation.
 `_check_generation(self, request_id, attempts=10, delay=10)`
